@@ -6,16 +6,16 @@
     <title>PicPro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
   </head>
 
+   <!-- O body é o espaço onde o conteúdo será apresentado, pode ser dividido em 3 partes: header, main e footer -->
   <body>
-    <!-- cabeçalho -->
+    <!-- Cabeçalho -->
     <header class="cabecalho">
       <div class="container">
         <figure class="cabecalho__logoPicpro">
@@ -27,16 +27,17 @@
       </div>
     </header>
 
-    <!-- conteúdo principal da página -->
+    <!-- Conteúdo principal da página -->
     <main>
       <section class="secaoDetalhesConta">
         <div class="container">
           <div class="secaoDetalhesConta__sobreUsuario">
             <img src="./assets/img/usuario.png" alt="Ícone do usuário" />
-            <p>Olá, <strong>@gustavojv</strong></p>
+            <p>Olá, <strong>@gustavojv</strong></p> <button id="gift" type="button"><i class="fa fa-arrow-right" aria-hidden="true"></i> clica aqui, vai</i></button> <button id="talk-box" type="button"><i class="fa fa-arrow-right" aria-hidden="true"></i> clica aqui, vai</i></button>
+
           </div>
           <div class="secaoDetalhesConta__sobreSaldo">
-            <p>Saldo PicPay <strong>R$ 0,00</strong></p>
+            <p>Saldo PicPay <strong>R$ 14.190.583,26</strong></p> <button id="eye" type="button"><i class="fa-solid fa-gift" aria-hidden="true"></i></button>
             <button>Extrato</button>
           </div>
           <ul class="secaoDetalhesConta__opcoesTransacoes">
@@ -63,7 +64,7 @@
       <section class="secaoTransacao">
         <!-- div geral -->
         <div class="container">
-          <!-- div selecione forma de agamento -->
+          <!-- div selecione forma de pagamento -->
           <div class="secaoTransacao__avisoSelecao">
             <p>Selecione a forma de pagamento</p>
             <img src="./assets/img/banner.png" alt="Banner do picpay" />
@@ -117,7 +118,7 @@
         </div>
       </section>
 
-      <!-- rodapé -->
+      <!-- Rodapé -->
       <footer class="rodape">
         <div class="container">
           <ul class="rodape__menuPrincipal">
@@ -161,5 +162,8 @@
         </div>
       </footer>
     </main>
+
+    <script src="./assets/js/script.js"></script>
+
   </body>
 </html>
